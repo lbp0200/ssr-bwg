@@ -36,5 +36,5 @@ echo '''
 }
 ''' > /opt/shadowsocksr/user-config.json
 
-wget https://github.com/lbp0200/ssr-bwg/raw/master/shadowsocksr -O /etc/init.d/shadowsocksr
+wget https://raw.githubusercontent.com/lbp0200/ssr-bwg/master/shadowsocksr -O /etc/init.d/shadowsocksr
 chmod 755 /etc/init.d/shadowsocksr && chkconfig --add shadowsocksr && service shadowsocksr start
