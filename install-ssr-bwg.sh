@@ -5,6 +5,8 @@ if [ ! $PASSWORD ]; then
 	PASSWORD='pwd1'
 fi
 
+yum install git
+
 cd /opt
 git clone https://github.com/shadowsocksr-backup/shadowsocksr.git
 
