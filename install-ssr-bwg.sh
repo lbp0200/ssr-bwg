@@ -8,7 +8,7 @@ fi
 yum install git -y
 
 cd /opt
-git clone https://github.com/shadowsocksr-backup/shadowsocksr.git
+git clone -b manyuser https://github.com/shadowsocksr-backup/shadowsocksr.git
 
 echo '''
 {
