@@ -19,10 +19,10 @@ echo '''
     "local_port": 1080,
 
     "password": "'''$PASSWORD'''",
-    "method": "none",
-    "protocol": "auth_chain_b",
+    "method": "aes-128-ctr",
+    "protocol": "auth_aes128_md5",
     "protocol_param": "",
-    "obfs": "tls1.2_ticket_auth",
+    "obfs": "http_post",
     "obfs_param": "",
     "speed_limit_per_con": 0,
     "speed_limit_per_user": 0,
