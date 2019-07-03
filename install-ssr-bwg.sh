@@ -22,8 +22,8 @@ echo '''
     "method": "aes-128-ctr",
     "protocol": "auth_aes128_md5",
     "protocol_param": "",
-    "obfs": "http_post",
-    "obfs_param": "",
+    "obfs": "tls1.2_ticket_auth",
+    "obfs_param": "www.chinadailyasia.com",
     "speed_limit_per_con": 0,
     "speed_limit_per_user": 0,
 
